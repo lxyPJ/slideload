@@ -1,12 +1,20 @@
 {
   "name": "slideload",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A Javascript pull to refresh &amp; infinite scroll plugin",
   "main": "slideload.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node fileServer.js ./"
+    "start": "node fileServer.js ./"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "lxyPJ",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^2.0.1"
+  }
 }
