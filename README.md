@@ -91,7 +91,7 @@ slideload.on('load',function(next,stop){
     }
 });
 //注册下拉刷新事件
-slideload.on('refresh',function(next,stop){
+slideload.on('refresh',function(next){
     //通过ajax获取数据，渲染DOM
     ……
     ……
